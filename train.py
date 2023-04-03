@@ -13,6 +13,8 @@ import os
 from contrib import adf
 from models.resnet import ResNet18
 from models.resnet_dropout import ResNet18Dropout
+from models_adf.resnet_adf import ResNet18ADF
+from models_adf.resnet_adf_dropout import ResNet18ADFDropout
 from utils import progress_bar
 
 # Model flags
